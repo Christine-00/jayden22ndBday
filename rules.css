@@ -1,0 +1,70 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+  background-color:rgba(0,0,0,0.5);
+}
+
+section{
+	display:block;
+	position:relative;
+}
+
+
+/*navbar*/
+nav{
+	line-height:2em;
+}
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	margin:0em 1.5em;
+	font-weight:bold;
+	font-size:200%;
+}
+
+.navlink{
+	font-family: 'Montserrat', sans-serif;
+	color:#c5c5c5;
+	margin:0em 2em;
+
+}
+.navlink:hover{
+	color:white;
+	text-decoration:none;
+}
+.nav-item{
+	padding-left:2em;
+}
+
+.navbar-collapse:active {
+	background-color:black;
+}
+
+.navbar-toggler{
+	font-size: 1.25rem;
+       line-height: 1;
+       color:white;
+}
+
+/*intruction*/
+.con1{
+  background-color:rgba(0,0,0,0.2);
+  padding: 2% 4%;
+}
+
+/*About Us*/
+.con3{
+	margin:auto;
+}
+.con3 h2{
+	padding: 2% 4%;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: rgb(238,232,170);
+	font-size: 10vw;
+
+}
+.con3 p{
+	text-align: center;
+	font-family: Ubuntu,sans-serif;
+
+	font-weight: bold;;
+}
