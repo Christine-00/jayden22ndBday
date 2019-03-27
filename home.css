@@ -54,7 +54,17 @@ nav{
 	text-align:center;
 	font-size:3vw;
 }
-
+@media only screen and (max-width: 768px){
+	.title-info{
+		font-size:5vw;
+	}
+	.heading1{
+		font-size:8.5vw
+	}
+	.featureInfo {
+		font-size:3vw;
+	}
+}
 /*Features*/
 .row{
 	margin:0px 0px;
